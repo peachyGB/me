@@ -21,13 +21,37 @@ h2 {
   font-size: 300%;
   font-weight: 800;
   margin: 15px;
+  margin-left: 60px;
 }
-a {
+
+h3 {
+  font-size: 200%;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.website-link {
   color: white;
+  margin: 20px;
+  font-style: inherit;
+}
+
+button {
+  color: white;
+  font-weight: 800;
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.website-link :hover {
+  background-color: rgba(251, 86, 108, 0.581);
 }
 
 .desktop-view {
-  max-width: 75%;
+  max-width: 70%;
   border: 8px solid rgb(35, 35, 35);
   border-radius: 25px;
   margin-right: 20px;
@@ -48,13 +72,17 @@ a {
 .proj-containers {
   background-color: rgba(0, 0, 0, 0.528);
   border-radius: 6px;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   margin: 20px;
 }
 
+.proj-descriptions {
+  margin: 20px;
+  font-size: x-large;
+}
+
 #bio {
-  border-radius: 6px;
   width: 80%;
   padding: 20px;
   margin: 20px;
