@@ -5,7 +5,7 @@
   position: absolute;
   left: -30%;
   top: 25%;
-  width: 140%;
+  width: 130%;
   height: auto;
   min-width: 35em;
   z-index: -100;
@@ -97,4 +97,19 @@ button {
   grid-row-gap: 20px;
   justify-items: center;
   max-width: 80%;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.contact-icons {
+  /* background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 20px; */
+  padding: 5px;
+  margin-right: 10px;
+  max-width: 40px;
 }
