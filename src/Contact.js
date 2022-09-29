@@ -11,9 +11,9 @@ function Contact() {
     <div>
       {/* <h2>Contact</h2> */}
       <div id="contact">
-        <a href={resdoc} target="_blank">
+        {/* <a href={resdoc} target="_blank">
           <img src={resume} alt="link to resume" className="contact-icons" />
-        </a>
+        </a> */}
         <a href="mailto:burnsidegeorgia@gmail.com" target="_blank">
           <img src={email} alt="link to email" className="contact-icons" />
         </a>
