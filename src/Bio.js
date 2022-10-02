@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 
 function Bio() {
   return (
@@ -19,6 +20,7 @@ function Bio() {
         my work and I hope to share my passion with the people I spend my days
         with.
       </p>
+      <Skills />
     </div>
   );
 }

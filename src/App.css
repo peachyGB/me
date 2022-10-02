@@ -30,6 +30,19 @@ h3 {
   margin: 20px;
 }
 
+#nav {
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+#bio {
+  background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 6px;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
+}
+
 .website-link {
   color: white;
   margin: 20px;
@@ -62,11 +75,12 @@ button {
   border-radius: 25px;
 }
 
-#peachy {
+.navBtn {
   font-size: 300%;
   color: rgb(49, 187, 56);
   margin: 15px;
   margin-left: 40px;
+  text-decoration: none;
 }
 
 .proj-containers {
@@ -97,6 +111,11 @@ button {
   grid-row-gap: 20px;
   justify-items: center;
   max-width: 80%;
+  background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 6px;
+  width: 90%;
+  padding: 20px;
+  margin: 20px;
 }
 #contact {
   display: flex;
