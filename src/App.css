@@ -81,6 +81,27 @@ button {
   margin: 15px;
   margin-left: 40px;
   text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0 10px;
+}
+
+.navBtn:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(49, 187, 56);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  transition: 1.5s cubic-bezier(0.4, 0, 0, 1.28);
+}
+.navBtn:hover {
+  color: rgb(49, 187, 56);
+}
+.navBtn:hover:after {
+  width: 100%;
 }
 
 .proj-containers {
