@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import github from "./Images/github.png";
 import email from "./Images/email.png";
 import linkedin from "./Images/linkedin.png";
@@ -7,6 +8,13 @@ import resume from "./Images/resume.png";
 import resdoc from "./Images/resume.pdf";
 
 function Contact() {
+  let [toolText, setToolText] = useState("Copy Email to Clipboard");
+  function copyText() {
+    let email = "burnsidegeorgia@gmail.com";
+    navigator.clipboard.writeText(email);
+    setToolText("Copied!");
+  }
+
   return (
     <div>
       {/* <h2>Contact</h2> */}
@@ -14,9 +22,20 @@ function Contact() {
         {/* <a href={resdoc} target="_blank">
           <img src={resume} alt="link to resume" className="contact-icons" />
         </a> */}
-        <a href="mailto:burnsidegeorgia@gmail.com" target="_blank">
-          <img src={email} alt="link to email" className="contact-icons" />
-        </a>
+
+        <div class="tooltip">
+          <button id="emailBtn" onClick={copyText}>
+            <span class="tooltiptext" id="myTooltip">
+              {toolText}
+            </span>
+            <img
+              src={email}
+              alt="copy email address"
+              className="contact-icons"
+            />
+          </button>
+        </div>
+
         <a href="tel:8459013906">
           <img
             src={phone}
