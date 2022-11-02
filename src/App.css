@@ -22,6 +22,7 @@ h2 {
   font-weight: 800;
   margin: 15px;
   margin-left: 60px;
+  text-shadow: 4px 4px 6px black;
 }
 
 h3 {
@@ -38,10 +39,19 @@ h3 {
 #bio {
   background-color: rgba(0, 0, 0, 0.528);
   border-radius: 6px;
-  width: 90%;
+  width: 80%;
   padding: 20px;
   margin: 20px;
+  font-size: x-large;
+  text-align: justify;
 }
+/* #bio p {
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  font-size: x-large;
+  text-align: justify;
+} */
 
 .website-link {
   color: white;
@@ -85,6 +95,7 @@ button {
   font-weight: bold;
   letter-spacing: 2px;
   padding: 0 10px;
+  text-shadow: 4px 4px 6px black;
 }
 
 .navBtn:after {
@@ -115,14 +126,6 @@ button {
 .proj-descriptions {
   margin: 20px;
   font-size: x-large;
-}
-
-#bio {
-  width: 80%;
-  padding: 20px;
-  margin: 20px;
-  font-size: xx-large;
-  text-align: justify;
 }
 
 .skills-grid {

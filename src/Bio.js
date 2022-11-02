@@ -20,6 +20,8 @@ function Bio() {
         my work and I hope to share my passion with the people I spend my days
         with.
       </p>
+      <br />
+      <br />
       <Skills />
     </div>
   );
