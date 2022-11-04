@@ -1,17 +1,15 @@
 import React from "react";
-import CityDesktop from "./Images/City-Desktop.png";
-import CityMobile from "./Images/City-Mobile.png";
-import HexleDesktop from "./Images/Hexle-Desktop.png";
-import HexleMobile from "./Images/Hexle-Mobile.png";
-import ClickerDesktop from "./Images/Clicker-Desktop.png";
-import ClickerMobile from "./Images/Clicker-Mobile.png";
+import Hexagon from "./Images/hexagon.png";
+import Globe from "./Images/globe.png";
+import Click from "./Images/click.png";
 
 function Projects() {
   return (
-    <div>
-      <h2>Projects</h2>
+    <div id="projects">
+      {/* <h2>Projects</h2> */}
       <div className="proj-containers">
-        <h3>"Honey Code"</h3>
+        <img src={Hexagon} alt="Honey Code Icon" className="siteIcon" />
+        <h3>Honey Code</h3>
         <div className="proj-descriptions">
           I wont pretend this isnt a Wordle dupe, but Honey Code uses pretty
           colors instead! This one is a work in progess and updates are bing
@@ -25,18 +23,9 @@ function Projects() {
           <button>View Full Site</button>
         </a>
         <br />
-        <img
-          src={HexleDesktop}
-          alt="web view preview"
-          className="desktop-view"
-        />
-        <img
-          src={HexleMobile}
-          alt="mobile view preview"
-          className="mobile-view"
-        />
       </div>
       <div className="proj-containers">
+        <img src={Globe} alt="Honey Code Icon" className="siteIcon" />
         <h3>"Guess That City"</h3>
         <div className="proj-descriptions">
           Enjoy a simple guessing game while learning about world cities at the
@@ -50,20 +39,11 @@ function Projects() {
           <button>View Full Site</button>
         </a>
         <br />
-        <img
-          src={CityDesktop}
-          alt="web view preview"
-          className="desktop-view"
-        />
-        <img
-          src={CityMobile}
-          alt="mobile view preview"
-          className="mobile-view"
-        />
       </div>
 
       <div className="proj-containers">
         <h3>"Click Me"</h3>
+        <img src={Click} alt="Honey Code Icon" className="siteIcon" />
         <div className="proj-descriptions">
           Just click. As fast as you can. Go.
         </div>
@@ -75,29 +55,7 @@ function Projects() {
           <button>View Full Site</button>
         </a>
         <br />
-        <img
-          src={ClickerDesktop}
-          alt="web view preview"
-          className="desktop-view"
-        />
-        <img
-          src={ClickerMobile}
-          alt="mobile view preview"
-          className="mobile-view"
-        />
       </div>
-
-      {/* <div className="proj-containers">
-        <h3>"EweTube"</h3>
-        <div>Web View Place Holder</div>
-        <div>Mobile View Placeholder</div>
-        <div>Description: Placeholder</div>
-        <div>Site Link</div>
-      </div> */}
-
-      {/* <div className="proj-containers">
-        <h3>Coming soon: "Shindoku"</h3>
-      </div> */}
     </div>
   );
 }

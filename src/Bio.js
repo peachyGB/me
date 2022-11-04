@@ -4,7 +4,7 @@ import Skills from "./Skills";
 function Bio() {
   return (
     <div>
-      <h2>Bio</h2>
+      {/* <h2>Bio</h2> */}
       <p id="bio">
         Hi I'm Georgia but some people like to call me Peachy. I answer to both.
         I like to make things that tickle the mind and/or your funny bone. I

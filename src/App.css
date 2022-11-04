@@ -45,18 +45,35 @@ h3 {
   font-size: x-large;
   text-align: justify;
 }
-/* #bio p {
-  width: 80%;
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   padding: 20px;
+  margin: 0px 50px;
+}
+
+.proj-containers {
+  background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 6px;
+  width: 35%;
+  padding: 20px;
+  margin: 30px;
+}
+
+.proj-descriptions {
   margin: 20px;
   font-size: x-large;
-  text-align: justify;
-} */
+}
 
 .website-link {
   color: white;
   margin: 20px;
   font-style: inherit;
+}
+
+.website-link :hover {
+  background-color: rgba(251, 86, 108, 0.581);
 }
 
 button {
@@ -69,20 +86,10 @@ button {
   border-radius: 10px;
 }
 
-.website-link :hover {
-  background-color: rgba(251, 86, 108, 0.581);
-}
-
-.desktop-view {
-  max-width: 70%;
-  border: 8px solid rgb(35, 35, 35);
-  border-radius: 25px;
-  margin-right: 20px;
-}
-.mobile-view {
-  max-width: 20%;
-  border: 8px solid rgb(35, 35, 35);
-  border-radius: 25px;
+.siteIcon {
+  width: 10rem;
+  margin: 20px;
+  margin-bottom: 0px;
 }
 
 .navBtn {
@@ -113,19 +120,6 @@ button {
 }
 .navBtn:hover:after {
   width: 100%;
-}
-
-.proj-containers {
-  background-color: rgba(0, 0, 0, 0.528);
-  border-radius: 6px;
-  width: 90%;
-  padding: 20px;
-  margin: 20px;
-}
-
-.proj-descriptions {
-  margin: 20px;
-  font-size: x-large;
 }
 
 .skills-grid {

@@ -15,7 +15,7 @@ function Skills() {
 
   return (
     <div>
-      <h2>Skills</h2>
+      {/* <h2>Skills</h2> */}
       <div className="skills-grid">
         {imgFile.map((image) => (
           <img src={image} className="skills-icon" />
