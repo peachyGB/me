@@ -22,7 +22,6 @@ function Bio() {
       </p>
       <br />
       <br />
-      <Skills />
     </div>
   );
 }
