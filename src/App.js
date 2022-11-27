@@ -11,8 +11,11 @@ function App() {
   return (
     <div className="App">
       <img src={peach} alt="" id="backgroundImg" />
-      <h1>Georgia Burnside</h1>
-      <Nav />
+      <header>
+        <h1>Georgia Burnside</h1>
+        <Nav />
+      </header>
+      <br />
       <Routes>
         <Route path="/projects" element={<Projects />} />
         <Route path="/" element={<Bio />} />
